@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#video-grid {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+
+}
+
+.main__left {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column
+}
+
+.main__right {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #3D3D42;
+}
+
+.main__videos {
+    flex-grow: 1;
+    background:linear-gradient(120deg, #002a53 100%, #397828 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__controls {
+    display: flex;
+    background-color: #1C1E20;
+    color: #D2D2D2;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.main__controls__block {
+    display: flex;
+}
+
+.main__controls__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.main__controls__button i {
+    font-size: 24px;
+}
+
+.main__controls__button:hover {
+    background-color: #343434;
+    border-radius: 5px;
+}
+
+.leave_meeting {
+    color: #EB534B;
+}
+
+.main__header {
+    color: white;
+    text-align: center;
+    background:linear-gradient(290deg, rgba(51, 17, 221, 1) 0%, rgba(0, 42, 83, 1) 86%, rgba(0, 42, 83, 1) 100%);
+}
+
+.main__chat_window {
+    flex-grow: 1;
+    overflow-y: scroll;
+    background:linear-gradient(290deg, rgba(51, 17, 221, 1) 0%, rgba(0, 42, 83, 1) 86%, rgba(0, 42, 83, 1) 100%);
+}
+
+.main__messages_container {
+    padding: 22px 12px;
+    display: flex;
+}
+
+.main__message_container input {
+    flex-grow: 1;
+    background:linear-gradient(290deg, rgba(51, 17, 221, 1) 0%, rgba(0, 42, 83, 1) 86%, rgba(0, 42, 83, 1) 100%);
+    border: none;
+    color: #f5f5f5; 
+    height: 50px;
+    width: 300px;
+}
+
+.messages {
+    color: white;
+    list-style: none;
+}
+
+.mute {
+    color: #cc3b33;
+}
+
+
+

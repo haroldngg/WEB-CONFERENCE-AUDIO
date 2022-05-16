@@ -1,0 +1,18 @@
+.Header {
+    background-color: transparent;
+    display: flex;
+    right: 0;
+    height: 102px;
+    width: 229px;
+    z-index: 1;
+}
+
+.main {
+    background-color: transparent;
+    display: flex;
+    flex: 0.8;
+    top: 20px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,122 @@
+
+.other_side {
+    background-color: transparent;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: none;
+}
+
+.other_side .new_room {
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    height: 190pt;
+    width: 190pt;
+    font-size: 47px;
+    border: 1px outset transparent;
+}
+
+.other_side .new_room a {
+    visibility: hidden;
+    height: 60pt;
+    width: 190pt;
+    background-color: #ff0202c4;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 100px 10px 121px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 17%;
+    left: 15%;
+    margin-left: -60px;
+    font-size: 0.5em;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.other_side .new_room:hover a {
+    visibility: visible;
+    opacity: 0.67;
+}
+
+.other_side .join_room {
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    right: 13%;
+    height: 190pt;
+    width: 190pt;
+    font-size: 47px;
+    border: 1px solid transparent;
+}
+
+.other_side .join_room a {
+    visibility: hidden;
+    height: 60pt;
+    width: 190pt;
+    background-color: rgba(163, 23, 214, 0.72);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 111px 10px 111px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 12%;
+    right: 8%;
+    margin-left: -60px;
+    font-size: 0.5em;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.other_side .join_room:hover a {
+    visibility: visible;
+    opacity: 0.67;
+}
+
+.other_side .planning_conf {
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    height: 190pt;
+    width: 190pt;
+    font-size: 47px;
+    border: 1px solid transparent;
+}
+
+.other_side .planning_conf a {
+    visibility: hidden;
+    height: 60pt;
+    width: 190pt;
+    background-color: rgba(74, 214, 22, 0.72);
+    color: rgb(229, 26, 120);
+    text-align: center;
+    border-radius: 12px;
+    padding: 111px 10px 111px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 16%;
+    left: 15%;
+    margin-left: -60px;
+    font-size: 20px;
+    text-decoration: none;
+    word-wrap: break-word;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.other_side .planning_conf:hover a {
+    visibility: visible;
+    opacity: 0.67;
+}

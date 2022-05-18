@@ -17,7 +17,7 @@ video {
 .main {
     height: 100vh;
     display: flex;
-
+    background:linear-gradient(120deg, #002a53 100%, #397828 30%);
 }
 
 .main__left {
@@ -35,7 +35,6 @@ video {
 
 .main__videos {
     flex-grow: 1;
-    background:linear-gradient(120deg, #002a53 100%, #397828 30%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,13 +78,11 @@ video {
 .main__header {
     color: white;
     text-align: center;
-    background:linear-gradient(290deg, rgba(51, 17, 221, 1) 0%, rgba(0, 42, 83, 1) 86%, rgba(0, 42, 83, 1) 100%);
 }
 
 .main__chat_window {
     flex-grow: 1;
     overflow-y: scroll;
-    background:linear-gradient(290deg, rgba(51, 17, 221, 1) 0%, rgba(0, 42, 83, 1) 86%, rgba(0, 42, 83, 1) 100%);
 }
 
 .main__messages_container {
@@ -95,7 +92,6 @@ video {
 
 .main__message_container input {
     flex-grow: 1;
-    background:linear-gradient(290deg, rgba(51, 17, 221, 1) 0%, rgba(0, 42, 83, 1) 86%, rgba(0, 42, 83, 1) 100%);
     border: none;
     color: #f5f5f5; 
     height: 50px;
